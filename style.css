@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+body{
+    font-family: 'Barlow', sans-serif;
+    margin: 0 auto;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+.header {
+  background-image: url("/images/image-header.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40em;
+  color: #ffffff;
+  text-align: center;
+}
+.header a {
+  float: right;
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  float: right;
+  gap: 2em;
+  padding-right: 1em;
+}
+.Btn {
+  border: none;
+  font-weight: 500;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 5px;
+}
+.header p {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 200px;
+  font-style: oblique;
+}
+.header h1 {
+  float: left;
+  font-size: 20px;
+}
+/* main */
+.transform {
+  width: 100%;
+  height: 450px;
+  display: flex;
+
+}
+
+.container_text {
+  width: 50%;
+  borer: 2px solid red;
+}
+.wrapper{
+    borde: 2px solid red;
+    padding: 90px; 
+      
+}
+.wrapper h3{
+    font-size: 40px;
+}
+.wrapper a{
+    text-decoration: none;
+    border-bottom: 2px solid yellow;
+    color: black;
+    font-weight: bolder;
+}
+
+.container_image1 {
+  width: 50%;
+  background-image: url("images/desktop/image-transform.jpg");
+}
+
+.container_image2 {
+  width: 50%;
+  background-image: url("images/desktop/image-stand-out.jpg");
+}
+
+.container_text h3 {
+
+  /* font-size: 40px;
+  padding-top: 50px; */
+}
+/* .transform p {
+
+  color: grey;
+  font-size: 20px;
+  text-indent: 5em;
+  margin: 30px;
+
+  
+} */
+
+.cup {
+  display: flex;
+}
+
+.cup h4 {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 50px;
+}
+
+.images {
+  display: flex;
+}
+.images h3 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 200px;
+  text-transform: uppercase;
+
+
+}
+
+.graphics {
+  background-image: url(/images/desktop/image-graphic-design.jpg);
+  width: 50%;
+  height: 550px;
+}
+.photography {
+  background-image: url(/images/desktop/image-photography.jpg);
+  width: 50%;
+  height: 550px;
+}
+.wrapper-2{
+    
+    padding: 90px;
+    padding-bottom: 0%;
+    text-align: center;
+}
+
+.boxes {
+  margin-top: 20px;
+}
+
+.boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+/* sidebar */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+/* main-col */
+article#main-col {
+  float: left;
+  width: 65%;
+}
+/* services */
+#services li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+.container img {
+  border-radius: 40em;
+}
+.container h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-style: italic;
+  font-size: larger;
+}
+
+.rectangle {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+
+.item1{
+    width: 25%;
+    background-image: url('images/desktop/image-gallery-milkbottles.jpg');
+    background-size: cover;
+}
+.item2{
+    width: 25%;
+    background-image: url('images/desktop/image-gallery-orange.jpg');
+    background-size: cover;
+}
+.item3{
+    width: 25%;
+    background-image: url('images/desktop/image-gallery-cone.jpg');
+    background-size: cover;
+}
+.item4{
+    width: 25%;
+    background-image: url('images/desktop/image-gallery-sugarcubes.jpg');
+    background-size: cover;
+}
+
+/* footer */
+
+.sunny1{
+         background-color: hsl(168, 34%, 41%);
+         text-align: center;
+        }
+
+ .sunny-icon2{
+               text-align: center;
+                padding: 40px;
+                text-decoration: none;
+               }
+  .nav2{
+      display:inline-flex;
+      list-style: none;
+      gap: 2em;
+      padding-top: 5px;
+      
+  }   
+.nav2 a{
+    text-decoration: none;
+      }    
+ .foot-icon{padding-bottom: 50px;
+            padding-top: 50px;
+            gap: 10em }         
+            
+/* .box img{
+    width: calc(100% - 10em);
+} */
